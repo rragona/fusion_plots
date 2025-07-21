@@ -41,7 +41,7 @@ Inspired and started from [Julien Hillairet's list of fusion startups](http://ju
 | Energy Singularity                          | 2021    | Shanghai, China               | MCF, compact tokamak, HTS, high-field  | | https://www.energysingularity.cn/en/ | 
 | Astral Systems                              | 2021    | Dorchester, UK                | Inertial electrostatic confinement, medical isotopes via fusion   |  | https://www.astralneutronics.com/ | 
 | EX-Fusion                                   | 2021    | Osaka, Japan                  | ICF, laser driven fusion   | 2030s [2] | https://www.ex-fusion.com/ | 
-| Focused Energy GmbH                         | 2021    | Darmstadt, Germany; Austin, Texas, USA   | Laser-based fusion    | 2035 [2] | https://focused-energy.world/ |
+| Focused Energy GmbH                         | 2021    | Darmstadt, Germany   | Laser-based fusion    | 2035 [2] | https://focused-energy.world/ |
 | Helical Fusion                              | 2021    | Tokyo, Japan                  | MCF, stellarator, HTS | | https://www.helicalfusion.com/?lang=en |
 | Longview Fusion Energy Systems              | 2021    | Livermore, California, USA    | ICF            | 2030s [13] | https://www.longviewfusion.com/ |
 | NearStar Fusion                             | 2021    | Chantilly, Virginia, USA      | Hypervelocity gradient field fusion, plasma gun, pulsed fusion | 2026 [9] | https://www.nearstarfusion.com/ |
