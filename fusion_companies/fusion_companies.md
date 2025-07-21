@@ -1,7 +1,9 @@
+# Fusion companies
+
 Inspired and started from [Julien Hillairet's list of fusion startups](http://julien.hillairet.free.fr/wiki/doku.php?id=list_of_fusion_startups).
 
 
-__Active companies and startups:__
+## Active companies and startups:
 
 | Company                                     | Started | Location                      | Concept                           | Break-even | Website |
 | ------------------------------------------- | ------- | ----------------------------- | --------------------------------- | ---------- | ------- |
@@ -59,20 +61,20 @@ __Active companies and startups:__
 | Proxima Fusion                              | 2023    | Munich, Germany               | MCF, stellarator, HTS                      | 2030s [14]    | https://proximafusion.com/ | 
 
 
-__Closed companies:__
+## Closed companies:
 | Company                                     | Started | Closed     | Location                          | Concept    | Break-even |
 | ------------------------------------------- | ------- | ---------- | --------------------------------- | ---------- | ---------- |
 | CTFusion                                    | 2015    | 2023 [17]  | Seattle, Washington, USA          | Dynomak, spheromak | 2030s [2] |
 
 
-**Abbreviations**:
+## Abbreviations:
 * MCF: Magnetic confinement fusion
 * ICF: Interial confinement fusion
 * FRC: Field-reversed configuration
 * HTS: High-temperature superconductor
 
 
-# References
+## References
 1. https://arpa-e.energy.gov/sites/default/files/5_PARK.pdf
 2. [Fusion Industry Association: The global fusion industry in 2022](https://202e0f23-02b6-4124-8ddc-80f6b1109b43.usrfiles.com/ugd/202e0f_4c69219a702646929d8d45ee358d9780.pdf)
 3. https://www.hornetechnologies.com/
@@ -92,7 +94,7 @@ __Closed companies:__
 17. https://www.geekwire.com/2023/energy-startup-ctfusion-folds-as-co-founders-land-at-rival-zap/
 
 
-# Further lists of private fusion projects
+## Further lists of private fusion projects
 1. http://julien.hillairet.free.fr/wiki/doku.php?id=list_of_fusion_startups
 2. https://nucleus.iaea.org/sites/fusionportal/Pages/FusDIS.aspx
 3. https://www.fusionenergybase.com/organizations
