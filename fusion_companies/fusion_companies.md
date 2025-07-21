@@ -17,7 +17,6 @@ Inspired and started from [Julien Hillairet's list of fusion startups](http://ju
 | Horne Technologies                          | 2008    | Elliston, Montana, USA        | Inertial electrostatic confinement | 2023 [3] | https://www.hornetechnologies.com/ |
 | Magneto-Intertial Fusion Technolgies, Inc (MIFTI)     | 2008 | Tustin, California, USA | Z-pinch | 2030 [2] | https://miftec.com/ |
 | Tokamak Energy                              | 2009    | Oxford, UK                    | MCF, spherical tokamak, HTS       | 2025 [4] | https://www.tokamakenergy.co.uk |
-| Lockheed Martin Compact Fusion Reactor (CFR) | 2010   | USA | Magnetic mirror, cusp | 2019 [5] | https://www.lockheedmartin.com/en-us/products/compact-fusion.html |
 | First Light Fusion                          | 2011    | Yarnton, Oxfordshire, UK      | ICF, projectile fusion            | | https://firstlightfusion.com |
 | Proton Scientific, Inc.                     | 2012    | Oak Ridge, Tennessee, USA     | ICF, electron beam fusion | | https://golden.com/wiki/Proton_Scientific-999B8JD |
 | Helion Energy, Inc.                         | 2013    | Everett, Washington, USA      | FRC, magnetic compression, aneutronic fusion | 2024 [6] | https://www.helionenergy.com |
@@ -61,9 +60,10 @@ Inspired and started from [Julien Hillairet's list of fusion startups](http://ju
 | Proxima Fusion                              | 2023    | Munich, Germany               | MCF, stellarator, HTS                      | 2030s [14]    | https://proximafusion.com/ | 
 
 
-## Closed companies:
-| Company                                     | Started | Closed     | Location                          | Concept    | Break-even |
-| ------------------------------------------- | ------- | ---------- | --------------------------------- | ---------- | ---------- |
+## Closed companies and abandoned projects:
+| Company                                     | Started | Closed     | Location                          | Concept    | Break-even | Website |
+| ------------------------------------------- | ------- | ---------- | --------------------------------- | ---------- | ---------- |---------|
+| Lockheed Martin Compact Fusion Reactor (CFR) | 2010   | 2019       | USA | Magnetic mirror, cusp | 2019 [5] | https://www.lockheedmartin.com/en-us/products/compact-fusion.html |
 | CTFusion                                    | 2015    | 2023 [17]  | Seattle, Washington, USA          | Dynomak, spheromak | 2030s [2] |
 
 
