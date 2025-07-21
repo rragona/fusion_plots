@@ -32,7 +32,7 @@ Inspired and started from [Julien Hillairet's list of fusion startups](http://ju
 | Crossfield Fusion                           | 2019    | London, UK                    | Technology for providing fusion fuel | | http://crossfieldfusion.com/ |
 | HB11 Energy                                 | 2019    | Sydney, Australia             | Non-thermal fusion, hydrogen-boron11, laser fusion | 2030s [2] | https://hb11.energy/ |
 | Kyoto Fusioneering Ltd.                     | 2019    | Kyoto, Japan                  | Fusion technology, gyroton, breeding blanket | | https://kyotofusioneering.com/en/ |
-| Marvel Fusion                               | 2019    | Munich, Germany               | ICF, laser fusion, diode-pumped laser, H-B11 fusion, nanostructured fuel | | https://marvelfusion.com |
+| Marvel Fusion                               | 2019    | Theresienhöhe 12, Munich, Germany | ICF, laser fusion, diode-pumped laser, H-B11 fusion, nanostructured fuel | | https://marvelfusion.com |
 | NT-TAO                                      | 2019    | Hod Hasharon, Israel          | Compact, proprietary plasma heating method, racetrack configuration | | https://www.nt-tao.com |
 | Oxford Sigma                                | 2019    | Didcot, Oxfordshire, UK       | Fusion technology | | https://www.oxfordsigma.com/ |
 | Type One Energy Group                       | 2019    | Madison, Wisconsin, USA       | MCF, stellarator, additive manufacturing | | https://www.typeoneenergy.com/ |
@@ -57,7 +57,7 @@ Inspired and started from [Julien Hillairet's list of fusion startups](http://ju
 | Stellarex                                   | 2022    | Princeton, New Jersey, USA    | MCF, stellarator, HTS |   | https://stellarex.energy/ |
 | ExoFusion                                   | 2023    | Seattle, Washington, USA      | Provides fusion technologies |  |  https://exofusion.co/ |
 | Pulsed Light Technologies GmbH              | 2023    | Leipzig, Germany              | Develop laser technologies for ICF |  |  https://pulsed-light-technologies.org/ |
-| Proxima Fusion                              | 2023    | Munich, Germany               | MCF, stellarator, HTS                      | 2030s [14]    | https://proximafusion.com/ | 
+| Proxima Fusion                              | 2023    | Flößergasse 2, Munich, Germany               | MCF, stellarator, HTS                      | 2030s [14]    | https://proximafusion.com/ | 
 
 
 ## Closed companies and abandoned projects:
