@@ -11,7 +11,7 @@ Inspired and started from [Julien Hillairet's list of fusion startups](http://ju
 | Energy Matter Conversion Corporation (EMC2) | 1985    | San Diego, California, USA    | Polywell                          | 2027 [1]   | |
 | TAE Technolgies (formerly Tri Alpha Energy) | 1998    | Foothill Ranch, California, USA | FRC, H-B11 fusion               | 2025 [2] | https://tae.com/ |
 | General Fusion                              | 2002    | Richmond, British Columbia, Canada | Compression, liquid metal walls | 2027 [16] | https://generalfusion.com/ |
-| HyperJet Fusion Corporation (formerly HyperV Technologies Corp.) | 2004 | Chantilly, VA, USA | Plasma jet driven magneto-intertial fusion | |
+| HyperJet Fusion Corporation (formerly HyperV Technologies Corp.) | 2004 | Chantilly, Virginia, USA | Plasma jet driven magneto-intertial fusion | |
 | Phoenix                                     | 2005    | Wisconsin, Madison, USA       | Beam-target fusion, fusion-based neutron source | | https://phoenixwi.com/ |
 | SHINE Technolgies                           | 2005    | Janesville, Wisconsin, USA    | Beam-target fusion, fusion-based neutron source | | https://www.shinefusion.com/ |
 | Horne Technologies                          | 2008    | Elliston, Montana, USA        | Inertial electrostatic confinement | 2023 [3] | https://www.hornetechnologies.com/ |
