@@ -59,7 +59,7 @@ Inspired and started from [Julien Hillairet's list of fusion startups](http://ju
 | LaserFusionX                                | 2022    | 8001 Forbes Place Suite 211, Springfield , Virginia, USA | ICF, ArF laser |   |   |
 | Novatron                                    | 2022    | Stockholm, Sweden             | Magnetic mirror, cusp configuration  | 2040 [11] | https://www.novatronfusion.com/ |
 | Thea Energy                                 | 2022    | 1 Eastern Road, New Jersey, USA | MCF, stellarator, HTS, planar magnet arrays |  | https://www.princetonstellarators.energy |
-| Realta Fusion                               | 2022    | Madison, Wisconsin, USA       | Magnetic mirror, small-scale, linear, tandem mirror   | 2032 [10] | https://www.realtafusion.com/ |
+| Realta Fusion                               | 2022 | 1200 John Q Hammons Dr., Madison, Wisconsin, USA | Magnetic mirror, small-scale, linear, tandem mirror   | 2032 [10] | https://www.realtafusion.com/ |
 | Stellarex                                   | 2022    | Princeton, New Jersey, USA    | MCF, stellarator, HTS |   | https://stellarex.energy/ |
 | ExoFusion                                   | 2023    | Seattle, Washington, USA      | Provides fusion technologies |  |  https://exofusion.co/ |
 | LINEA Innovation Overview                   | 2023    | Roppongi Hills Mori Tower, Tokyo, Japan | FRC, magnetic mirror, hydrogen-boron (p-11B)   |  | https://linea-innovations.com/ |
