@@ -52,6 +52,7 @@ Inspired and started from [Julien Hillairet's list of fusion startups](http://ju
 | Blue Laser Fusion                           | 2022    | 6950 Hollister Ave., Goleta, California, USA | ICF, proton-boron 11 fuel |    | https://bluelaserfusion.com/ |
 | Deutelio                                    | 2022    | Piazza Stazione 15, Grono, Switzerland | MCF, polomak      | | https://www.deutelio.com/ |
 | Gauss Fusion GmbH                           | 2022    | Hanau, Germany                | Supplying technology for fusion experiments           | 2045 [12] | 
+| HHMAX-Energy                                | 2022    | Chengdu, Sichuan, China       | FRC |   | https://hhmax-energy.com/en/ |
 | Kronos Fusion Energy                        | 2022    | Arlington, Virginia, USA      | MCF, minimum-aspect ratio torus, machine learning | 2036 [15] | https://www.kronosfusionenergy.com/ |
 | Novatron                                    | 2022    | Stockholm, Sweden             | Magnetic mirror, cusp configuration  | 2040 [11] | https://www.novatronfusion.com/ |
 | Princeton Stellarators aka Thea Energy      | 2022    | Princeton, New Jersey, USA    | MCF, stellarator, HTS, planar magnet arrays |  | https://www.princetonstellarators.energy |
