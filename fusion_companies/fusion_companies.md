@@ -57,7 +57,7 @@ Inspired and started from [Julien Hillairet's list of fusion startups](http://ju
 | HHMAX-Energy                                | 2022    | Chengdu, Sichuan, China       | FRC |   | https://hhmax-energy.com/en/ |
 | Jupiter Volta                               | 2022 | 2201 4th St, Berkeley, California, USA | Z-pinch |  |  https://jupitervolta.com |
 | Kronos Fusion Energy                        | 2022    | Arlington, Virginia, USA      | MCF, minimum-aspect ratio torus, machine learning | 2036 [15] | https://www.kronosfusionenergy.com/ |
-| LaserFusionX                                | 2022    | 8001 Forbes Place Suite 211, Springfield , Virginia, USA | ICF, ArF laser |   |   |
+| LaserFusionX                                | 2022    | Springfield , Virginia, USA | ICF, ArF laser |   |   |
 | Novatron                                    | 2022    | Stockholm, Sweden             | Magnetic mirror, cusp configuration  | 2040 [11] | https://www.novatronfusion.com/ |
 | Thea Energy                                 | 2022    | 1 Eastern Road, New Jersey, USA | MCF, stellarator, HTS, planar magnet arrays |  | https://www.princetonstellarators.energy |
 | Realta Fusion                               | 2022 | 1200 John Q Hammons Dr., Madison, Wisconsin, USA | Magnetic mirror, small-scale, linear, tandem mirror   | 2032 [10] | https://www.realtafusion.com/ |
