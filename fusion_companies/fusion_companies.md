@@ -49,7 +49,7 @@ Inspired and started from [Julien Hillairet's list of fusion startups](http://ju
 | Su-N Energy Technology (UK) Ltd             | 2021    | London, UK                    | Cold fusion, transmutation | | http://www.su-n.co.uk/ | 
 | Xcimer Energy Company                       | 2021    | Redwood City, California, USA | ICF, xcimer laser | | https://www.xcimer.net/ |
 | Blue Laser Fusion                           | 2022    | 6950 Hollister Ave., Goleta, California, USA | ICF, proton-boron 11 fuel |    | https://bluelaserfusion.com/ |
-| Deutelio                                    | 2022    | Varese, Italy                 | MCF, polomak                          | | https://www.deutelio.com/ |
+| Deutelio                                    | 2022    | Piazza Stazione 15, Grono, Switzerland | MCF, polomak      | | https://www.deutelio.com/ |
 | Gauss Fusion GmbH                           | 2022    | Hanau, Germany                | Supplying technology for fusion experiments           | 2045 [12] | 
 | Kronos Fusion Energy                        | 2022    | Arlington, Virginia, USA      | MCF, minimum-aspect ratio torus, machine learning | 2036 [15] | https://www.kronosfusionenergy.com/ |
 | Novatron                                    | 2022    | Stockholm, Sweden             | Magnetic mirror, cusp configuration  | 2040 [11] | https://www.novatronfusion.com/ |
