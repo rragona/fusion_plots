@@ -23,7 +23,7 @@ Inspired and started from [Julien Hillairet's list of fusion startups](http://ju
 | Helion Energy, Inc.                         | 2013    | Everett, Washington, USA      | FRC, magnetic compression, aneutronic fusion | 2024 [6] | https://www.helionenergy.com |
 | Pulsar Fusion                               | 2014    | Bletchley, UK                 | FRC, direct fusion drive, spacecraft | | https://pulsarfusion.com/products-development/fusion-propulsion
 | AGNI Energy Inc.                            | 2017    | Olympia, Washington, USA      | Hybrid beam-target approach, E-field + B-field, beam-spin polarization | | https://www.linkedin.com/company/agni-energy |
-| Princeton Satellite Systems                 | 2017    | Plainsboro, New Jersey, USA   | FRC, direct Fusion Drive, spacecraft | | https://www.princetonfusionsystems.com/ , https://www.psatellite.com/ |
+| Princeton Fusion Systems (PFS)              | 2017    | Plainsboro, New Jersey, USA   | FRC, direct Fusion Drive, spacecraft | | https://www.princetonfusionsystems.com/ , https://www.psatellite.com/ |
 | Zap Energy                                  | 2017    | Seattle, Washington, USA      | Z-pinch, shear-flow-stabilized | | https://www.zapenergy.com/ |
 | Compact Fusion Systems                      | 2017    | Santa Fe, New Mexico, USA     | Liquid metal compression | 2030 [8] | |
 | Advanced Ignition S.L.                      | 2018    | Cabanillas del Campo, Spain   | Z-pinch | | http://www.pulsotron.com/ |
