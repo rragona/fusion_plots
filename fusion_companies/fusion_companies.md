@@ -24,7 +24,7 @@ Inspired and started from [Julien Hillairet's list of fusion startups](http://ju
 | Pulsar Fusion                               | 2014    | Bletchley, UK                 | FRC, direct fusion drive, spacecraft | | https://pulsarfusion.com/products-development/fusion-propulsion
 | AGNI Energy Inc.                            | 2017    | Olympia, Washington, USA      | Hybrid beam-target approach, E-field + B-field, beam-spin polarization | | https://www.linkedin.com/company/agni-energy |
 | Princeton Fusion Systems (PFS)              | 2017    | Plainsboro, New Jersey, USA   | FRC, direct Fusion Drive, spacecraft | | https://www.princetonfusionsystems.com/ , https://www.psatellite.com/ |
-| Zap Energy                                  | 2017    | Seattle, Washington, USA      | Z-pinch, shear-flow-stabilized | | https://www.zapenergy.com/ |
+| Zap Energy                                  | 2017    | 5901 23rd Dr W, Everett, Washington, USA | Z-pinch, shear-flow-stabilized | | https://www.zapenergy.com/ |
 | Compact Fusion Systems                      | 2017    | Santa Fe, New Mexico, USA     | Liquid metal compression | 2030 [8] | |
 | Advanced Ignition S.L.                      | 2018    | Cabanillas del Campo, Spain   | Z-pinch | | http://www.pulsotron.com/ |
 | Avalanche Energy Designs                    | 2018    | Seattle, Washington, USA      | Orbitron, electrostatic confinement, micro-scale fusion reactor | | https://www.avalanche.energy/ |
