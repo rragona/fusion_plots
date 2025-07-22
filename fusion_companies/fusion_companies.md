@@ -58,6 +58,7 @@ Inspired and started from [Julien Hillairet's list of fusion startups](http://ju
 | ExoFusion                                   | 2023    | Seattle, Washington, USA      | Provides fusion technologies |  |  https://exofusion.co/ |
 | Pulsed Light Technologies GmbH              | 2023    | Leipzig, Germany              | Develop laser technologies for ICF |  |  https://pulsed-light-technologies.org/ |
 | Proxima Fusion                              | 2023    | Flößergasse 2, Munich, Germany               | MCF, stellarator, HTS                      | 2030s [14]    | https://proximafusion.com/ | 
+| Acceleron Fusion                            | 2023    | 288 Norfolk Street, Cambridge, Massachusetts, USA | Muon catalyzed fusion |    | https://www.acceleron.energy/ |
 
 
 ## Closed companies and abandoned projects:
