@@ -14,7 +14,7 @@ Inspired and started from [Julien Hillairet's list of fusion startups](http://ju
 | HyperJet Fusion Corporation (formerly HyperV Technologies Corp.) | 2004 | Chantilly, Virginia, USA | Plasma jet driven magneto-intertial fusion | |
 | Phoenix                                     | 2005    | Wisconsin, Madison, USA       | Beam-target fusion, fusion-based neutron source | | https://phoenixwi.com/ |
 | SHINE Technolgies                           | 2005    | Janesville, Wisconsin, USA    | Beam-target fusion, fusion-based neutron source | | https://www.shinefusion.com/ |
-| Horne Technologies                          | 2008    | Elliston, Montana, USA        | Inertial electrostatic confinement | 2023 [3] | https://www.hornetechnologies.com/ |
+| Horne Technologies                          | 2008    | Longmont, Colorado, USA        | Inertial electrostatic confinement | 2023 [3] | https://www.hornetechnologies.com/ |
 | Magneto-Intertial Fusion Technolgies, Inc (MIFTI)     | 2008 | Tustin, California, USA | Z-pinch | 2030 [2] | https://miftec.com/ |
 | Tokamak Energy                              | 2009    | Oxford, UK                    | MCF, spherical tokamak, HTS       | 2025 [4] | https://www.tokamakenergy.co.uk |
 | First Light Fusion                          | 2011    | Yarnton, Oxfordshire, UK      | ICF, projectile fusion            | | https://firstlightfusion.com |
