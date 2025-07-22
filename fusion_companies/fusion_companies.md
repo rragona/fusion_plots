@@ -61,6 +61,7 @@ Inspired and started from [Julien Hillairet's list of fusion startups](http://ju
 | Realta Fusion                               | 2022    | Madison, Wisconsin, USA       | Magnetic mirror, small-scale, linear, tandem mirror   | 2032 [10] | https://www.realtafusion.com/ |
 | Stellarex                                   | 2022    | Princeton, New Jersey, USA    | MCF, stellarator, HTS |   | https://stellarex.energy/ |
 | ExoFusion                                   | 2023    | Seattle, Washington, USA      | Provides fusion technologies |  |  https://exofusion.co/ |
+| LINEA Innovation Overview                   | 2023    | Roppongi Hills Mori Tower, Tokyo, Japan | FRC, magnetic mirror, hydrogen-boron (p-11B)   |  | https://linea-innovations.com/ |
 | Pulsed Light Technologies GmbH              | 2023    | Leipzig, Germany              | Develop laser technologies for ICF |  |  https://pulsed-light-technologies.org/ |
 | Proxima Fusion                              | 2023    | Flößergasse 2, Munich, Germany               | MCF, stellarator, HTS                      | 2030s [14]    | https://proximafusion.com/ | 
 | Acceleron Fusion                            | 2023    | 288 Norfolk Street, Cambridge, Massachusetts, USA | Muon catalyzed fusion |    | https://www.acceleron.energy/ |
