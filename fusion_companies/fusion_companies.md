@@ -17,6 +17,7 @@ Inspired and started from [Julien Hillairet's list of fusion startups](http://ju
 | Horne Technologies                          | 2008    | Longmont, Colorado, USA        | Inertial electrostatic confinement | 2023 [3] | https://www.hornetechnologies.com/ |
 | Magneto-Intertial Fusion Technolgies, Inc (MIFTI)     | 2008 | Tustin, California, USA | Z-pinch | 2030 [2] | https://miftec.com/ |
 | Tokamak Energy                              | 2009    | Oxford, UK                    | MCF, spherical tokamak, HTS       | 2025 [4] | https://www.tokamakenergy.co.uk |
+| Innoven Energy                              | 2010    | Solana Beach, California, USA | ICF |   | https://innoven-energy.com/ |
 | First Light Fusion                          | 2011    | Yarnton, Oxfordshire, UK      | ICF, projectile fusion            | | https://firstlightfusion.com |
 | Proton Scientific, Inc.                     | 2012    | Oak Ridge, Tennessee, USA     | ICF, electron beam fusion | | https://golden.com/wiki/Proton_Scientific-999B8JD |
 | Helion Energy, Inc.                         | 2013    | Everett, Washington, USA      | FRC, magnetic compression, aneutronic fusion | 2024 [6] | https://www.helionenergy.com |
