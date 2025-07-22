@@ -35,7 +35,7 @@ Inspired and started from [Julien Hillairet's list of fusion startups](http://ju
 | HB11 Energy                                 | 2019    | Sydney, Australia             | Non-thermal fusion, hydrogen-boron11, laser fusion | 2030s [2] | https://hb11.energy/ |
 | Kyoto Fusioneering Ltd.                     | 2019    | Kyoto, Japan                  | Fusion technology, gyroton, breeding blanket | | https://kyotofusioneering.com/en/ |
 | Marvel Fusion                               | 2019    | Theresienhöhe 12, Munich, Germany | ICF, laser fusion, diode-pumped laser, H-B11 fusion, nanostructured fuel | | https://marvelfusion.com |
-| NT-TAO                                      | 2019    | Hod Hasharon, Israel          | Compact, proprietary plasma heating method, racetrack configuration | | https://www.nt-tao.com |
+| NT-TAO                                      | 2019    | Hod Hasharon, Israel          | Quasi-symmetric stellarator, compact, active stabilization | | https://www.nt-tao.com |
 | Oxford Sigma                                | 2019    | Didcot, Oxfordshire, UK       | Fusion technology | | https://www.oxfordsigma.com/ |
 | Type One Energy Group                       | 2019    | Madison, Wisconsin, USA       | MCF, stellarator, additive manufacturing | | https://www.typeoneenergy.com/ |
 | Electric Fusion Systems                     | 2020    | Broomfield, Colorado, USA     | Liquid metal hydrogen environment, p-Li fusion, aneutronic fusion | 2023 [2] | https://electricfusionsystems.com/ |
