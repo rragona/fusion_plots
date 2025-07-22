@@ -1,0 +1,2224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_49d8712e87953c044dcfcf285e91fa46 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+    <div style="position: fixed; 
+         bottom: 50px; left: 50px; width: 110px; height: 90px; 
+         border:2px solid grey; z-index:9999; font-size:14px;
+         background-color:white; opacity: 0.6;">
+         &nbsp; <i class="fa fa-circle" style="color:blue"></i> Tokamak<br>
+         &nbsp; <i class="fa fa-circle" style="color:green"></i> Stellarator<br>
+         &nbsp; <i class="fa fa-circle" style="color:red"></i> ICF<br>
+         &nbsp; <i class="fa fa-circle" style="color:black"></i> other<br>
+    </div>
+    
+    
+            <div class="folium-map" id="map_49d8712e87953c044dcfcf285e91fa46" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_49d8712e87953c044dcfcf285e91fa46 = L.map(
+                "map_49d8712e87953c044dcfcf285e91fa46",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 1,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a282f0e14e5066e317bf50db4de961a8 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a282f0e14e5066e317bf50db4de961a8.addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var marker_11631512dcfdc6fea4724028351f9e4f = L.marker(
+                [40.4279708, -74.3963102],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_67eac6749b75f1a42b77252de32ddcb2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_11631512dcfdc6fea4724028351f9e4f.bindTooltip(
+                `<div>
+                     LPPFusion
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_11631512dcfdc6fea4724028351f9e4f.setIcon(icon_67eac6749b75f1a42b77252de32ddcb2);
+            
+    
+            var marker_c4e3fa70720f8d2713404830040a8bf1 = L.marker(
+                [32.7174202, -117.162772],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_e0308721a487211aba64f932622e30bc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_c4e3fa70720f8d2713404830040a8bf1.bindTooltip(
+                `<div>
+                     Energy Matter Conversion Corporation (EMC2)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c4e3fa70720f8d2713404830040a8bf1.setIcon(icon_e0308721a487211aba64f932622e30bc);
+            
+    
+            var marker_e2987d39fad0aff0a9dca66cf8c50ee8 = L.marker(
+                [33.6837644, -117.662249],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_71520b57523b05300738236bee727a7c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_e2987d39fad0aff0a9dca66cf8c50ee8.bindTooltip(
+                `<div>
+                     TAE Technolgies (formerly Tri Alpha Energy)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e2987d39fad0aff0a9dca66cf8c50ee8.setIcon(icon_71520b57523b05300738236bee727a7c);
+            
+    
+            var marker_09d97a5c0f6722eaab65603d851e7274 = L.marker(
+                [49.163168, -123.137414],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_6e5deff1a195a813034b2370b7ec73ff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_09d97a5c0f6722eaab65603d851e7274.bindTooltip(
+                `<div>
+                     General Fusion
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_09d97a5c0f6722eaab65603d851e7274.setIcon(icon_6e5deff1a195a813034b2370b7ec73ff);
+            
+    
+            var marker_b03134a935876ef657fa5e8596d4e7ab = L.marker(
+                [38.885219, -77.4486772],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_15a52988af602740dc9895796164b9f4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_b03134a935876ef657fa5e8596d4e7ab.bindTooltip(
+                `<div>
+                     HyperJet Fusion Corporation (formerly HyperV Technologies Corp.)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b03134a935876ef657fa5e8596d4e7ab.setIcon(icon_15a52988af602740dc9895796164b9f4);
+            
+    
+            var marker_d5fddb6980d952235fd31b0d2f8cbcab = L.marker(
+                [43.0746978, -89.3841692],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_1c3125830fd8963188beabeed680f8bb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_d5fddb6980d952235fd31b0d2f8cbcab.bindTooltip(
+                `<div>
+                     Phoenix
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d5fddb6980d952235fd31b0d2f8cbcab.setIcon(icon_1c3125830fd8963188beabeed680f8bb);
+            
+    
+            var marker_5cfd0e7974aea36098f62a005e9f2fdd = L.marker(
+                [42.6829765, -89.0226793],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_16843e39d4e013671813dc54a92617ce = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_5cfd0e7974aea36098f62a005e9f2fdd.bindTooltip(
+                `<div>
+                     SHINE Technolgies
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5cfd0e7974aea36098f62a005e9f2fdd.setIcon(icon_16843e39d4e013671813dc54a92617ce);
+            
+    
+            var marker_f32ec36cdd86d716c03c428175c1d60e = L.marker(
+                [40.1672117, -105.101928],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_52da93dac9d51279bddc172b94222469 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_f32ec36cdd86d716c03c428175c1d60e.bindTooltip(
+                `<div>
+                     Horne Technologies
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f32ec36cdd86d716c03c428175c1d60e.setIcon(icon_52da93dac9d51279bddc172b94222469);
+            
+    
+            var marker_7bdf843dfe317b7b531bd4a979f8b232 = L.marker(
+                [33.7458511, -117.826166],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_8277e0ef8c149a8935fa490c27f2b745 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_7bdf843dfe317b7b531bd4a979f8b232.bindTooltip(
+                `<div>
+                     Magneto-Intertial Fusion Technolgies, Inc (MIFTI)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7bdf843dfe317b7b531bd4a979f8b232.setIcon(icon_8277e0ef8c149a8935fa490c27f2b745);
+            
+    
+            var marker_42625efed70767120ed8f246d218bff9 = L.marker(
+                [51.6714842, -1.2779715],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_a00419f21dad93561c3d4c4a7714b965 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_42625efed70767120ed8f246d218bff9.bindTooltip(
+                `<div>
+                     Tokamak Energy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_42625efed70767120ed8f246d218bff9.setIcon(icon_a00419f21dad93561c3d4c4a7714b965);
+            
+    
+            var marker_2ea8fab0eb6a0e38602cb160a44bf126 = L.marker(
+                [32.9905597, -117.269131],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_b3b9f48096fe30a8ba680dc4f14327dc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_2ea8fab0eb6a0e38602cb160a44bf126.bindTooltip(
+                `<div>
+                     Innoven Energy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2ea8fab0eb6a0e38602cb160a44bf126.setIcon(icon_b3b9f48096fe30a8ba680dc4f14327dc);
+            
+    
+            var marker_df488ed2e914b82c206a2e92dcb880eb = L.marker(
+                [51.8046148, -1.308937],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_215b427e0ed3b725f05790e3a8a80841 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_df488ed2e914b82c206a2e92dcb880eb.bindTooltip(
+                `<div>
+                     First Light Fusion
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_df488ed2e914b82c206a2e92dcb880eb.setIcon(icon_215b427e0ed3b725f05790e3a8a80841);
+            
+    
+            var marker_66867e6c8e41bcef8166cc2804f13621 = L.marker(
+                [36.0103562, -84.2696449],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_627fd57c18fbd7211ac9312035ad4155 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_66867e6c8e41bcef8166cc2804f13621.bindTooltip(
+                `<div>
+                     Proton Scientific, Inc.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_66867e6c8e41bcef8166cc2804f13621.setIcon(icon_627fd57c18fbd7211ac9312035ad4155);
+            
+    
+            var marker_1ba81e2d78064a18cb8d2167898bd2a8 = L.marker(
+                [47.9793437, -122.2127011],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_069e974e57385c486d778a7a9b8d7624 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_1ba81e2d78064a18cb8d2167898bd2a8.bindTooltip(
+                `<div>
+                     Helion Energy, Inc.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1ba81e2d78064a18cb8d2167898bd2a8.setIcon(icon_069e974e57385c486d778a7a9b8d7624);
+            
+    
+            var marker_8788fc62924da781d49e8b60b14146bc = L.marker(
+                [51.9943694, -0.7325655],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_0a89564c0f733411f71b584672eff4ee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_8788fc62924da781d49e8b60b14146bc.bindTooltip(
+                `<div>
+                     Pulsar Fusion
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8788fc62924da781d49e8b60b14146bc.setIcon(icon_0a89564c0f733411f71b584672eff4ee);
+            
+    
+            var marker_519d18c28b4fad96f633cb89da662b0c = L.marker(
+                [47.0451022, -122.8950075],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_9c902fff5157d2036123b1c41c76df62 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_519d18c28b4fad96f633cb89da662b0c.bindTooltip(
+                `<div>
+                     AGNI Energy Inc.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_519d18c28b4fad96f633cb89da662b0c.setIcon(icon_9c902fff5157d2036123b1c41c76df62);
+            
+    
+            var marker_0f1be8e1618e0f700f54a313213a5021 = L.marker(
+                [40.3334409, -74.6004341],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_e2c5dcb2746c43dff6ad0919ac85587e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_0f1be8e1618e0f700f54a313213a5021.bindTooltip(
+                `<div>
+                     Princeton Fusion Systems (PFS)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0f1be8e1618e0f700f54a313213a5021.setIcon(icon_e2c5dcb2746c43dff6ad0919ac85587e);
+            
+    
+            var marker_9799640a8b1d9e40115468a659125d22 = L.marker(
+                [47.9440739, -122.2618118],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_b02e2602b882ed9118dd3a301bb1ed49 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_9799640a8b1d9e40115468a659125d22.bindTooltip(
+                `<div>
+                     Zap Energy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9799640a8b1d9e40115468a659125d22.setIcon(icon_b02e2602b882ed9118dd3a301bb1ed49);
+            
+    
+            var marker_2e3ace1a36b56d3bbe6304ea6345f4af = L.marker(
+                [35.6876096, -105.938456],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_a2e5fbb85f1b5204a76d709507b6857e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_2e3ace1a36b56d3bbe6304ea6345f4af.bindTooltip(
+                `<div>
+                     Compact Fusion Systems
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2e3ace1a36b56d3bbe6304ea6345f4af.setIcon(icon_a2e5fbb85f1b5204a76d709507b6857e);
+            
+    
+            var marker_307d7074f9a60f7b9e3b0eb6545fe56a = L.marker(
+                [40.6372377, -3.2364142],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_0cefb60deebb879634276888a0ddde1b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_307d7074f9a60f7b9e3b0eb6545fe56a.bindTooltip(
+                `<div>
+                     Advanced Ignition S.L.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_307d7074f9a60f7b9e3b0eb6545fe56a.setIcon(icon_0cefb60deebb879634276888a0ddde1b);
+            
+    
+            var marker_a47c0a3a218720be6328e1a60bfe3331 = L.marker(
+                [47.6038321, -122.330062],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_0eadad03cd24c5c8b272892eb9ef29a3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_a47c0a3a218720be6328e1a60bfe3331.bindTooltip(
+                `<div>
+                     Avalanche Energy Designs
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a47c0a3a218720be6328e1a60bfe3331.setIcon(icon_0eadad03cd24c5c8b272892eb9ef29a3);
+            
+    
+            var marker_c4136663e47b48d3ffcf3e26461ce1d5 = L.marker(
+                [42.3656347, -71.1040018],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_c65bfec73b0821c4bd50c81542dfc4e1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_c4136663e47b48d3ffcf3e26461ce1d5.bindTooltip(
+                `<div>
+                     Commonwealth Fusion Systems (CFS)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c4136663e47b48d3ffcf3e26461ce1d5.setIcon(icon_c65bfec73b0821c4bd50c81542dfc4e1);
+            
+    
+            var marker_3c11573ef45346cbf99d1a4de1f9a5c8 = L.marker(
+                [37.4443293, -122.1598465],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_3f6179e2b8e93d5bf0ef831a523b17ae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_3c11573ef45346cbf99d1a4de1f9a5c8.bindTooltip(
+                `<div>
+                     Fuse Energy Technologies
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3c11573ef45346cbf99d1a4de1f9a5c8.setIcon(icon_3f6179e2b8e93d5bf0ef831a523b17ae);
+            
+    
+            var marker_bf2be382fd8407fe9aa6158547862d40 = L.marker(
+                [37.6529422, -121.7783255],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_fc0f89933eb13d26433b3642ef5d8bde = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_bf2be382fd8407fe9aa6158547862d40.bindTooltip(
+                `<div>
+                     Helicity Space
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bf2be382fd8407fe9aa6158547862d40.setIcon(icon_fc0f89933eb13d26433b3642ef5d8bde);
+            
+    
+            var marker_153872ea318a9ff5c1c557be94c065ec = L.marker(
+                [51.4893335, -0.1440551],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_0c7ce74245ef973d2d6f4a53f451f3bc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_153872ea318a9ff5c1c557be94c065ec.bindTooltip(
+                `<div>
+                     Crossfield Fusion
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_153872ea318a9ff5c1c557be94c065ec.setIcon(icon_0c7ce74245ef973d2d6f4a53f451f3bc);
+            
+    
+            var marker_558ee9f5c1bd19b10c0e9b88cf98dcbb = L.marker(
+                [-33.8698439, 151.2082848],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_45d770e8afc4c4e6aefb37fa9d4e17eb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_558ee9f5c1bd19b10c0e9b88cf98dcbb.bindTooltip(
+                `<div>
+                     HB11 Energy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_558ee9f5c1bd19b10c0e9b88cf98dcbb.setIcon(icon_45d770e8afc4c4e6aefb37fa9d4e17eb);
+            
+    
+            var marker_8cd70a3eb677bf8a3ad4b3099a28248b = L.marker(
+                [35.0115754, 135.7681441],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_e9f8bce8afb3006effd4be0958aed2ad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_8cd70a3eb677bf8a3ad4b3099a28248b.bindTooltip(
+                `<div>
+                     Kyoto Fusioneering Ltd.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8cd70a3eb677bf8a3ad4b3099a28248b.setIcon(icon_e9f8bce8afb3006effd4be0958aed2ad);
+            
+    
+            var marker_6e37bd6376436d56605f492e384ad339 = L.marker(
+                [48.1338826, 11.5447746],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_48145d3630cf2068ecece3777ce65786 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_6e37bd6376436d56605f492e384ad339.bindTooltip(
+                `<div>
+                     Marvel Fusion
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6e37bd6376436d56605f492e384ad339.setIcon(icon_48145d3630cf2068ecece3777ce65786);
+            
+    
+            var marker_ee1d825e3127dfe75d6997dfb0f05fa0 = L.marker(
+                [32.1561974, 34.8930354],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_73acb5a74c03de037e208c0514a06fb3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_ee1d825e3127dfe75d6997dfb0f05fa0.bindTooltip(
+                `<div>
+                     NT-TAO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ee1d825e3127dfe75d6997dfb0f05fa0.setIcon(icon_73acb5a74c03de037e208c0514a06fb3);
+            
+    
+            var marker_2639eee6ae93ef601538bda5a6150ed2 = L.marker(
+                [51.6056908, -1.2467923],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_dcbcb38fe9287950a8af4485959a69c2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_2639eee6ae93ef601538bda5a6150ed2.bindTooltip(
+                `<div>
+                     Oxford Sigma
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2639eee6ae93ef601538bda5a6150ed2.setIcon(icon_dcbcb38fe9287950a8af4485959a69c2);
+            
+    
+            var marker_1efda8b98135f141380eb94a79751ed8 = L.marker(
+                [35.9603948, -83.9210261],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_8f5386be0d3b88ecd2957b3add7b9bb7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_1efda8b98135f141380eb94a79751ed8.bindTooltip(
+                `<div>
+                     Type One Energy Group
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1efda8b98135f141380eb94a79751ed8.setIcon(icon_8f5386be0d3b88ecd2957b3add7b9bb7);
+            
+    
+            var marker_850020851b59971e250ba5f206de9974 = L.marker(
+                [39.9403995, -105.05208],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_27c95db9bb919889cf92be42ca707f92 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_850020851b59971e250ba5f206de9974.bindTooltip(
+                `<div>
+                     Electric Fusion Systems
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_850020851b59971e250ba5f206de9974.setIcon(icon_27c95db9bb919889cf92be42ca707f92);
+            
+    
+            var marker_cb64974dc3f63886f4e3b59b52f1f353 = L.marker(
+                [45.192115, 5.6759845],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_e84365144e573706519683e2cbd9b14b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_cb64974dc3f63886f4e3b59b52f1f353.bindTooltip(
+                `<div>
+                     Renaissance Fusion
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cb64974dc3f63886f4e3b59b52f1f353.setIcon(icon_e84365144e573706519683e2cbd9b14b);
+            
+    
+            var marker_182a05a9267f8144daae9495706c0c99 = L.marker(
+                [31.2312707, 121.4700152],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_dfc6c515ee4b79772fa1973609a95552 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_182a05a9267f8144daae9495706c0c99.bindTooltip(
+                `<div>
+                     Energy Singularity
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_182a05a9267f8144daae9495706c0c99.setIcon(icon_dfc6c515ee4b79772fa1973609a95552);
+            
+    
+            var marker_9cc1001cf2a0c9feef323773beba5707 = L.marker(
+                [50.7132064, -2.4371229],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_440a371e3e7cea07e0559e7f9532e33e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_9cc1001cf2a0c9feef323773beba5707.bindTooltip(
+                `<div>
+                     Astral Systems
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9cc1001cf2a0c9feef323773beba5707.setIcon(icon_440a371e3e7cea07e0559e7f9532e33e);
+            
+    
+            var marker_db70cdab49246025d0e13564e8e88083 = L.marker(
+                [34.6937569, 135.5014539],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_4f2193c9ca6d4c58469a9ab22db843c4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_db70cdab49246025d0e13564e8e88083.bindTooltip(
+                `<div>
+                     EX-Fusion
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_db70cdab49246025d0e13564e8e88083.setIcon(icon_4f2193c9ca6d4c58469a9ab22db843c4);
+            
+    
+            var marker_f6258b04ac42500b8d0167aba241e0ed = L.marker(
+                [49.8851869, 8.6736295],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_31d1f3a97785466f9bc3e381526f2d68 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_f6258b04ac42500b8d0167aba241e0ed.bindTooltip(
+                `<div>
+                     Focused Energy GmbH
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f6258b04ac42500b8d0167aba241e0ed.setIcon(icon_31d1f3a97785466f9bc3e381526f2d68);
+            
+    
+            var marker_55783f407ce0fe11aa98f010e0207102 = L.marker(
+                [35.6768601, 139.7638947],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_1fa0cf91d004ec6ea8ad874fcebcc20f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_55783f407ce0fe11aa98f010e0207102.bindTooltip(
+                `<div>
+                     Helical Fusion
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_55783f407ce0fe11aa98f010e0207102.setIcon(icon_1fa0cf91d004ec6ea8ad874fcebcc20f);
+            
+    
+            var marker_3c2d820fba1de6f33484d2bf8f1710b6 = L.marker(
+                [37.8771476, -122.1796888],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_c093d5cae4534e204ac8019370a3e795 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_3c2d820fba1de6f33484d2bf8f1710b6.bindTooltip(
+                `<div>
+                     Longview Fusion Energy Systems
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3c2d820fba1de6f33484d2bf8f1710b6.setIcon(icon_c093d5cae4534e204ac8019370a3e795);
+            
+    
+            var marker_24aecede0d94d4ba5b7664eb57fe5748 = L.marker(
+                [38.885219, -77.4486772],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_0312f12d49cee3584a78d32da741d0cc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_24aecede0d94d4ba5b7664eb57fe5748.bindTooltip(
+                `<div>
+                     NearStar Fusion
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_24aecede0d94d4ba5b7664eb57fe5748.setIcon(icon_0312f12d49cee3584a78d32da741d0cc);
+            
+    
+            var marker_9adf73edb403337501c4c37b518c4759 = L.marker(
+                [-41.2887953, 174.7772114],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_f270013840b4b66c9eeb52cec90ecc63 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_9adf73edb403337501c4c37b518c4759.bindTooltip(
+                `<div>
+                     OpenStar Technologies
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9adf73edb403337501c4c37b518c4759.setIcon(icon_f270013840b4b66c9eeb52cec90ecc63);
+            
+    
+            var marker_168a53d96d78848aed5132c24fe597fc = L.marker(
+                [34.5129331, 109.0621816],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_3b813f6a406f5603ed368d9a08946c93 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_168a53d96d78848aed5132c24fe597fc.bindTooltip(
+                `<div>
+                     Startorus Fusion
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_168a53d96d78848aed5132c24fe597fc.setIcon(icon_3b813f6a406f5603ed368d9a08946c93);
+            
+    
+            var marker_28be82bdbde171e515081d056ce31c3b = L.marker(
+                [51.4893335, -0.1440551],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_a43ef20e31c8453052534620abe3ab3a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_28be82bdbde171e515081d056ce31c3b.bindTooltip(
+                `<div>
+                     Su-N Energy Technology (UK) Ltd
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_28be82bdbde171e515081d056ce31c3b.setIcon(icon_a43ef20e31c8453052534620abe3ab3a);
+            
+    
+            var marker_167a263b958a7c1ab228d44d0a9ea577 = L.marker(
+                [39.7829206, -104.8680655],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_94484995a5c0be200b2014fbcfe9a3d3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_167a263b958a7c1ab228d44d0a9ea577.bindTooltip(
+                `<div>
+                     Xcimer Energy Company
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_167a263b958a7c1ab228d44d0a9ea577.setIcon(icon_94484995a5c0be200b2014fbcfe9a3d3);
+            
+    
+            var marker_221409b857fa8c6312172c9ac7a01821 = L.marker(
+                [34.4306421, -119.8711535],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_d450ca796ede05d5aaf70b96f39778f9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_221409b857fa8c6312172c9ac7a01821.bindTooltip(
+                `<div>
+                     Blue Laser Fusion
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_221409b857fa8c6312172c9ac7a01821.setIcon(icon_d450ca796ede05d5aaf70b96f39778f9);
+            
+    
+            var marker_cb64774acc2dcac4825cb5bebe5f203b = L.marker(
+                [46.2469976, 9.1473724],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_9e392d4267866eb6987ecb9bd2395874 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_cb64774acc2dcac4825cb5bebe5f203b.bindTooltip(
+                `<div>
+                     Deutelio
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cb64774acc2dcac4825cb5bebe5f203b.setIcon(icon_9e392d4267866eb6987ecb9bd2395874);
+            
+    
+            var marker_849d12e3895ad1275a8395e59dd8e858 = L.marker(
+                [48.2507408, 11.6367292],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_9082a9fb9ed32595dd9ad8e3a1c75111 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_849d12e3895ad1275a8395e59dd8e858.bindTooltip(
+                `<div>
+                     Gauss Fusion GmbH
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_849d12e3895ad1275a8395e59dd8e858.setIcon(icon_9082a9fb9ed32595dd9ad8e3a1c75111);
+            
+    
+            var marker_1a7d49631871f8f39152a6bffeaabe61 = L.marker(
+                [30.659867, 104.063315],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_4be90f102c728b02aa9dabaa1cf66ca9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_1a7d49631871f8f39152a6bffeaabe61.bindTooltip(
+                `<div>
+                     HHMAX-Energy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1a7d49631871f8f39152a6bffeaabe61.setIcon(icon_4be90f102c728b02aa9dabaa1cf66ca9);
+            
+    
+            var marker_c71c97ce7039152d6372d5bcb6979b86 = L.marker(
+                [37.8647325, -122.2988072],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_ccc3e90eaa76f3c23cc793d18fadc455 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_c71c97ce7039152d6372d5bcb6979b86.bindTooltip(
+                `<div>
+                     Jupiter Volta
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c71c97ce7039152d6372d5bcb6979b86.setIcon(icon_ccc3e90eaa76f3c23cc793d18fadc455);
+            
+    
+            var marker_0bd784a2559b5b30458e0135e8e3e893 = L.marker(
+                [38.8769326, -77.0893094],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_db38775301652438e8c9dabebd28bc6c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_0bd784a2559b5b30458e0135e8e3e893.bindTooltip(
+                `<div>
+                     Kronos Fusion Energy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0bd784a2559b5b30458e0135e8e3e893.setIcon(icon_db38775301652438e8c9dabebd28bc6c);
+            
+    
+            var marker_05ae9cf1166ffabca2d408c8fb1c71d9 = L.marker(
+                [38.7749935, -77.1803819],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_ab99e86cac23b8cddd856477aaf17d8e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_05ae9cf1166ffabca2d408c8fb1c71d9.bindTooltip(
+                `<div>
+                     LaserFusionX
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_05ae9cf1166ffabca2d408c8fb1c71d9.setIcon(icon_ab99e86cac23b8cddd856477aaf17d8e);
+            
+    
+            var marker_1d31c12b79ac972fa94695b1ecef6ede = L.marker(
+                [59.3251172, 18.0710935],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_8aa837e94b29b49317a648060563bec4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_1d31c12b79ac972fa94695b1ecef6ede.bindTooltip(
+                `<div>
+                     Novatron
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1d31c12b79ac972fa94695b1ecef6ede.setIcon(icon_8aa837e94b29b49317a648060563bec4);
+            
+    
+            var marker_9f88a6fb25482ed982bf64697933a2dd = L.marker(
+                [40.7212796, -74.1078095],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_a708fedb55a62692567b738cff7d6034 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_9f88a6fb25482ed982bf64697933a2dd.bindTooltip(
+                `<div>
+                     Thea Energy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9f88a6fb25482ed982bf64697933a2dd.setIcon(icon_a708fedb55a62692567b738cff7d6034);
+            
+    
+            var marker_b9e5e2f246acbc48076b1999bb09506d = L.marker(
+                [43.0827516, -89.5247609],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_eb8359f99c669082249730f6c5be6365 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_b9e5e2f246acbc48076b1999bb09506d.bindTooltip(
+                `<div>
+                     Realta Fusion
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b9e5e2f246acbc48076b1999bb09506d.setIcon(icon_eb8359f99c669082249730f6c5be6365);
+            
+    
+            var marker_2b099c511485eeaab00186dc61d6b2be = L.marker(
+                [40.3496953, -74.6597376],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_b493476ac9552dd30ffd13d5ead00665 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_2b099c511485eeaab00186dc61d6b2be.bindTooltip(
+                `<div>
+                     Stellarex
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2b099c511485eeaab00186dc61d6b2be.setIcon(icon_b493476ac9552dd30ffd13d5ead00665);
+            
+    
+            var marker_58513d092787ebdf145e3165860c088a = L.marker(
+                [47.6038321, -122.330062],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_ca6c8617a188fefda79cf5b4b3206e5c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_58513d092787ebdf145e3165860c088a.bindTooltip(
+                `<div>
+                     ExoFusion
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_58513d092787ebdf145e3165860c088a.setIcon(icon_ca6c8617a188fefda79cf5b4b3206e5c);
+            
+    
+            var marker_3a83012e44a77cd2024e04d178739814 = L.marker(
+                [35.6604561, 139.7292768],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_c8779affceec7f6148e89a2701b4fe14 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_3a83012e44a77cd2024e04d178739814.bindTooltip(
+                `<div>
+                     LINEA Innovation Overview
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3a83012e44a77cd2024e04d178739814.setIcon(icon_c8779affceec7f6148e89a2701b4fe14);
+            
+    
+            var marker_ce961064c53815b58568a2fb91acef52 = L.marker(
+                [31.8317723, 117.1010783],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_d1e7c932985b40514c68ace479af5cf2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_ce961064c53815b58568a2fb91acef52.bindTooltip(
+                `<div>
+                     Neo Fusion
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ce961064c53815b58568a2fb91acef52.setIcon(icon_d1e7c932985b40514c68ace479af5cf2);
+            
+    
+            var marker_9e891253dbc9a3b1509c21d6befad613 = L.marker(
+                [37.6936723, -122.1661653],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_5484df537984227f75d23e8d19a33f7c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_9e891253dbc9a3b1509c21d6befad613.bindTooltip(
+                `<div>
+                     Pacific Fusion
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9e891253dbc9a3b1509c21d6befad613.setIcon(icon_5484df537984227f75d23e8d19a33f7c);
+            
+    
+            var marker_96d54ffdc6b084dfb92cb0bed26e3011 = L.marker(
+                [51.3406321, 12.3747329],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_95ff69da7ccbddbc99fdbf36f7bd08b9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_96d54ffdc6b084dfb92cb0bed26e3011.bindTooltip(
+                `<div>
+                     Pulsed Light Technologies GmbH
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_96d54ffdc6b084dfb92cb0bed26e3011.setIcon(icon_95ff69da7ccbddbc99fdbf36f7bd08b9);
+            
+    
+            var marker_b8b46060ea860d38d4611437c94ebb18 = L.marker(
+                [48.1064938, 11.5371436],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_40d6e6c76e4680dd38dc32daee60ad22 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_b8b46060ea860d38d4611437c94ebb18.bindTooltip(
+                `<div>
+                     Proxima Fusion
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b8b46060ea860d38d4611437c94ebb18.setIcon(icon_40d6e6c76e4680dd38dc32daee60ad22);
+            
+    
+            var marker_ace4b762f2685b1ac7a286b46ac5d1bd = L.marker(
+                [42.3712627, -71.0971009],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_ee488dba0f005e41f6046dcaff487d94 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_ace4b762f2685b1ac7a286b46ac5d1bd.bindTooltip(
+                `<div>
+                     Acceleron Fusion
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ace4b762f2685b1ac7a286b46ac5d1bd.setIcon(icon_ee488dba0f005e41f6046dcaff487d94);
+            
+    
+            var marker_d91efba17cd0a0aa2aa47f5ea42a119e = L.marker(
+                [43.5298424, 5.4474738],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_3c4ca32443be8be73ffe51ab28033527 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_d91efba17cd0a0aa2aa47f5ea42a119e.bindTooltip(
+                `<div>
+                     Firefly Fusion
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d91efba17cd0a0aa2aa47f5ea42a119e.setIcon(icon_3c4ca32443be8be73ffe51ab28033527);
+            
+    
+            var marker_ca5bf56eb1a7671bd47ff7d91ba90d30 = L.marker(
+                [37.778546, -122.4365473],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_6a5dc8bc948b4611a29a2a0a9fa59a6d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_ca5bf56eb1a7671bd47ff7d91ba90d30.bindTooltip(
+                `<div>
+                     Maritime Fusion
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ca5bf56eb1a7671bd47ff7d91ba90d30.setIcon(icon_6a5dc8bc948b4611a29a2a0a9fa59a6d);
+            
+    
+            var marker_a6b4f5eae841b67cffe1fe62ee1762cd = L.marker(
+                [13.0514799, 77.5933559],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_a7825ed17d0bdb065e248ed2392315bb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_a6b4f5eae841b67cffe1fe62ee1762cd.bindTooltip(
+                `<div>
+                     Pranos fusion
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a6b4f5eae841b67cffe1fe62ee1762cd.setIcon(icon_a7825ed17d0bdb065e248ed2392315bb);
+            
+    
+            var marker_68c5b9e9128ad2437b80ee660912e05a = L.marker(
+                [35.6649887, -105.9927955],
+                {
+  "opacity": 0.6,
+}
+            ).addTo(map_49d8712e87953c044dcfcf285e91fa46);
+        
+    
+            var icon_df578475f917bbeb88acb035df18337e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_68c5b9e9128ad2437b80ee660912e05a.bindTooltip(
+                `<div>
+                     XTus Energy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_68c5b9e9128ad2437b80ee660912e05a.setIcon(icon_df578475f917bbeb88acb035df18337e);
+            
+</script>
+</html>
