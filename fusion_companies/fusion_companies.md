@@ -64,6 +64,8 @@ Inspired and started from [Julien Hillairet's list of fusion startups](http://ju
 | ExoFusion                                   | 2023    | Seattle, Washington, USA      | Provides fusion technologies |  |  https://exofusion.co/ |
 | LINEA Innovation Overview                   | 2023    | Roppongi Hills Mori Tower, Tokyo, Japan | FRC, magnetic mirror, hydrogen-boron (p-11B)   |  | https://linea-innovations.com/ |
 | Neo Fusion                                  | 2023 | No. 900, Wangjiang West Road, Hefei, Anhui, China | no information released |  |  |
+| Pacific Fusion                              | 2023 | 2013 Farallon Dr, San Leandro, California, USA | ICF, MagLIF |  | https://www.pacificfusion.com/ |
+
 | Pulsed Light Technologies GmbH              | 2023    | Leipzig, Germany              | Develop laser technologies for ICF |  |  https://pulsed-light-technologies.org/ |
 | Proxima Fusion                              | 2023    | Flößergasse 2, Munich, Germany               | MCF, stellarator, HTS                      | 2030s [14]    | https://proximafusion.com/ | 
 | Acceleron Fusion                            | 2023    | 288 Norfolk Street, Cambridge, Massachusetts, USA | Muon catalyzed fusion |    | https://www.acceleron.energy/ |
