@@ -50,7 +50,7 @@ Inspired and started from [Julien Hillairet's list of fusion startups](http://ju
 | OpenStar Technologies                       | 2021 | Wellington, New Zealand          | MCF, levitated dipole |  |  https://www.openstar.tech/ |
 | Startorus Fusion                            | 2021    | Shaanxi Province, China       | MCF, spherical tokamak                 | | |
 | Su-N Energy Technology (UK) Ltd             | 2021    | London, UK                    | Cold fusion, transmutation | | http://www.su-n.co.uk/ | 
-| Xcimer Energy Company                       | 2021    | Redwood City, California, USA | ICF, xcimer laser | | https://www.xcimer.net/ |
+| Xcimer Energy Company                       | 2021    | 10325 E 47th Avenue, Denver, Colorado, USA | ICF, KrF xcimer laser | | https://www.xcimer.net/ |
 | Blue Laser Fusion                           | 2022    | 6950 Hollister Ave., Goleta, California, USA | ICF, proton-boron 11 fuel |    | https://bluelaserfusion.com/ |
 | Deutelio                                    | 2022    | Piazza Stazione 15, Grono, Switzerland | MCF, polomak      | | https://www.deutelio.com/ |
 | Gauss Fusion GmbH                           | 2022    | Hanau, Germany                | Supplying technology for fusion experiments           | 2045 [12] | 
