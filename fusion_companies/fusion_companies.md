@@ -39,7 +39,7 @@ Inspired and started from [Julien Hillairet's list of fusion startups](http://ju
 | Oxford Sigma                                | 2019    | Didcot, Oxfordshire, UK       | Fusion technology | | https://www.oxfordsigma.com/ |
 | Type One Energy Group                       | 2019    | Knoxville, Tennessee, USA       | MCF, stellarator, HTS | | https://www.typeoneenergy.com/ |
 | Electric Fusion Systems                     | 2020    | Broomfield, Colorado, USA     | Liquid metal hydrogen environment, p-Li fusion, aneutronic fusion | 2023 [2] | https://electricfusionsystems.com/ |
-| Renaissance Fusion                          | 2020    | Grenoble, France              | MCF, stellarator, HTS, liquid metal walls | 2027 [2] | https://renfusion.eu/ |
+| Renaissance Fusion                          | 2020 | 14 Rue Jean Pierre Timbaud, 38600 Fontaine, France | MCF, stellarator, HTS, liquid metal walls | 2027 [2] | https://renfusion.eu/ |
 | Energy Singularity                          | 2021    | Shanghai, China               | MCF, compact tokamak, HTS, high-field  | | https://www.energysingularity.cn/en/ | 
 | Astral Systems                              | 2021    | Dorchester, UK                | Inertial electrostatic confinement, medical isotopes via fusion   |  | https://www.astralneutronics.com/ | 
 | EX-Fusion                                   | 2021    | Osaka, Japan                  | ICF, laser driven fusion   | 2030s [2] | https://www.ex-fusion.com/ | 
