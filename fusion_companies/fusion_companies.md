@@ -66,6 +66,7 @@ Inspired and started from [Julien Hillairet's list of fusion startups](http://ju
 | Proxima Fusion                              | 2023    | Flößergasse 2, Munich, Germany               | MCF, stellarator, HTS                      | 2030s [14]    | https://proximafusion.com/ | 
 | Acceleron Fusion                            | 2023    | 288 Norfolk Street, Cambridge, Massachusetts, USA | Muon catalyzed fusion |    | https://www.acceleron.energy/ |
 | Firefly Fusion                              | 2024    | Aix-en-Provence, France       | MCF, HTS, compact high-field tokamak |    | https://fireflyfusion.energy |
+| Maritime Fusion                             | 2024 | 936 Scott St, San Francisco, California, USA | Tokamak, HTS |  | https://maritimefusion.com/ |
 
 
 ## Closed companies and abandoned projects:
