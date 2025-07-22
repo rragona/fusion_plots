@@ -45,7 +45,7 @@ Inspired and started from [Julien Hillairet's list of fusion startups](http://ju
 | EX-Fusion                                   | 2021    | Osaka, Japan                  | ICF, laser driven fusion   | 2030s [2] | https://www.ex-fusion.com/ | 
 | Focused Energy GmbH                         | 2021    | Darmstadt, Germany   | Laser-based fusion    | 2035 [2] | https://focused-energy.world/ |
 | Helical Fusion                              | 2021    | Tokyo, Japan                  | MCF, stellarator, HTS | | https://www.helicalfusion.com/?lang=en |
-| Longview Fusion Energy Systems              | 2021    | Livermore, California, USA    | ICF            | 2030s [13] | https://www.longviewfusion.com/ |
+| Longview Fusion Energy Systems              | 2021    | Orinda, California, USA    | ICF            | 2030s [13] | https://www.longviewfusion.com/ |
 | NearStar Fusion                             | 2021    | Chantilly, Virginia, USA      | Hypervelocity gradient field fusion, plasma gun, pulsed fusion | 2026 [9] | https://www.nearstarfusion.com/ |
 | Startorus Fusion                            | 2021    | Shaanxi Province, China       | MCF, spherical tokamak                 | | |
 | Su-N Energy Technology (UK) Ltd             | 2021    | London, UK                    | Cold fusion, transmutation | | http://www.su-n.co.uk/ | 
