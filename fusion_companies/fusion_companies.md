@@ -71,6 +71,7 @@ Inspired and started from [Julien Hillairet's list of fusion startups](http://ju
 | Firefly Fusion                              | 2024    | Aix-en-Provence, France       | MCF, HTS, compact high-field tokamak |    | https://fireflyfusion.energy |
 | Maritime Fusion                             | 2024 | 936 Scott St, San Francisco, California, USA | Tokamak, HTS |  | https://maritimefusion.com/ |
 | Pranos fusion                               | 2024 | Hebbal Kempapura, Bangalore, Karnataka, India | MCF, spherical tokamak, HTS |  | https://www.pranosfusion.energy/ |
+| XTus Energy                                 | 2024 | 2778 Agua Fria Street, Santa Fe, New Mexico, USA | Software for fusion (machine learning) |  | https://xtusenergy.com/ |
 
 
 ## Closed companies and abandoned projects:
