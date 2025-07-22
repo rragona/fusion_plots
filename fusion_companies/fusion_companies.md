@@ -48,7 +48,7 @@ Inspired and started from [Julien Hillairet's list of fusion startups](http://ju
 | Longview Fusion Energy Systems              | 2021    | Orinda, California, USA    | ICF            | 2030s [13] | https://www.longviewfusion.com/ |
 | NearStar Fusion                             | 2021    | Chantilly, Virginia, USA      | Hypervelocity gradient field fusion, plasma gun, pulsed fusion | 2026 [9] | https://www.nearstarfusion.com/ |
 | OpenStar Technologies                       | 2021 | Wellington, New Zealand          | MCF, levitated dipole |  |  https://www.openstar.tech/ |
-| Startorus Fusion                            | 2021    | Shaanxi Province, China       | MCF, spherical tokamak                 | | |
+| Startorus Fusion                            | 2021 | Gaoling District, Xi'an,Shaanxi Province, China | MCF, spherical tokamak | | https://startorus.com/ |
 | Su-N Energy Technology (UK) Ltd             | 2021    | London, UK                    | Cold fusion, transmutation | | http://www.su-n.co.uk/ | 
 | Xcimer Energy Company                       | 2021    | 10325 E 47th Avenue, Denver, Colorado, USA | ICF, KrF xcimer laser | | https://www.xcimer.net/ |
 | Blue Laser Fusion                           | 2022    | 6950 Hollister Ave., Goleta, California, USA | ICF, proton-boron 11 fuel |    | https://bluelaserfusion.com/ |
