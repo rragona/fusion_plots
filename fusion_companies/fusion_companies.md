@@ -70,6 +70,7 @@ Inspired and started from [Julien Hillairet's list of fusion startups](http://ju
 | Acceleron Fusion                            | 2023    | 288 Norfolk Street, Cambridge, Massachusetts, USA | Muon catalyzed fusion |    | https://www.acceleron.energy/ |
 | Firefly Fusion                              | 2024    | Aix-en-Provence, France       | MCF, HTS, compact high-field tokamak |    | https://fireflyfusion.energy |
 | Maritime Fusion                             | 2024 | 936 Scott St, San Francisco, California, USA | Tokamak, HTS |  | https://maritimefusion.com/ |
+| Pranos fusion                               | 2024 | Hebbal Kempapura, Bangalore, Karnataka, India | MCF, spherical tokamak, HTS |  | https://www.pranosfusion.energy/ |
 
 
 ## Closed companies and abandoned projects:
