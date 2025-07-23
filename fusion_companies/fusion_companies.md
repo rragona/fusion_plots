@@ -31,7 +31,7 @@ Inspired and started from [Julien Hillairet's list of fusion startups](http://ju
 | Commonwealth Fusion Systems (CFS)           | 2018    | Cambridge, Massachusetts, USA | MCF, tokamak, HTS | 2025 [7] | https://cfs.energy/ |
 | Fuse Energy Technologies                    | 2018    | Palo Alto, California USA     | Magnetized-Liner inertial fusion (MagLIF), ICF |  |  https://www.f.energy/ |
 | Helicity Space                              | 2018    | Berkely, California, USA      | Spacecraft, helicity drive | | https://www.helicityspace.com/ |
-| Crossfield Fusion                           | 2019    | London, UK                    | Technology for providing fusion fuel | | http://crossfieldfusion.com/ |
+| ENN Fusion                                  | 2018    | Langfang, Hebei, China        | MCF, spherical tokamak, compact, proton-boron | 2035 [18]  | http://en.ennresearch.com/ |
 | HB11 Energy                                 | 2019    | Sydney, Australia             | Non-thermal fusion, hydrogen-boron11, laser fusion | 2030s [2] | https://hb11.energy/ |
 | Kyoto Fusioneering Ltd.                     | 2019    | Kyoto, Japan                  | Fusion technology, gyroton, breeding blanket | | https://kyotofusioneering.com/en/ |
 | Marvel Fusion                               | 2019    | Theresienhöhe 12, Munich, Germany | ICF, laser fusion, diode-pumped laser, H-B11 fusion, nanostructured fuel | | https://marvelfusion.com |
@@ -107,7 +107,7 @@ Inspired and started from [Julien Hillairet's list of fusion startups](http://ju
 15. https://www.linkedin.com/company/kronosfusionenergy
 16. https://generalfusion.com/fusion-demo-plant/
 17. https://www.geekwire.com/2023/energy-startup-ctfusion-folds-as-co-founders-land-at-rival-zap/
-
+18. http://en.ennresearch.com/researchfield/Compactfusion/
 
 ## Further lists of private fusion projects
 1. http://julien.hillairet.free.fr/wiki/doku.php?id=list_of_fusion_startups
