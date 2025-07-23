@@ -32,6 +32,7 @@ Inspired and started from [Julien Hillairet's list of fusion startups](http://ju
 | Fuse Energy Technologies                    | 2018    | Palo Alto, California USA     | Magnetized-Liner inertial fusion (MagLIF), ICF |  |  https://www.f.energy/ |
 | Helicity Space                              | 2018    | Berkely, California, USA      | Spacecraft, helicity drive | | https://www.helicityspace.com/ |
 | ENN Fusion                                  | 2018    | Langfang, Hebei, China        | MCF, spherical tokamak, compact, proton-boron | 2035 [18]  | http://en.ennresearch.com/ |
+| Crossfield Fusion                           | 2019    | London, UK                    | Technology for providing fusion fuel | | http://crossfieldfusion.com/ |
 | HB11 Energy                                 | 2019    | Sydney, Australia             | Non-thermal fusion, hydrogen-boron11, laser fusion | 2030s [2] | https://hb11.energy/ |
 | Kyoto Fusioneering Ltd.                     | 2019    | Kyoto, Japan                  | Fusion technology, gyroton, breeding blanket | | https://kyotofusioneering.com/en/ |
 | Marvel Fusion                               | 2019    | Theresienhöhe 12, Munich, Germany | ICF, laser fusion, diode-pumped laser, H-B11 fusion, nanostructured fuel | | https://marvelfusion.com |
