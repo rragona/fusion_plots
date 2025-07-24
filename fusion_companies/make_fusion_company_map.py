@@ -1,7 +1,7 @@
 # coding=utf-8
 
 """
-Plot a map with locations of fusion companies as OpenStreetMap.
+Plot a map with locations of fusion companies as OpenStreetMap into html-file.
 """
 
 __author__      = 'Alf Köhn-Seemann'
@@ -38,6 +38,8 @@ def get_fusion_companies_info(url):
 
     Returns
     -------
+    fusion_table: pandas dataframe
+        contains 'address', 'name', and 'concept'
     """
 
     # test if url is correct/available
@@ -83,6 +85,7 @@ def get_lat_lng(address_arr):
 
     Returns
     -------
+    lats, lngs: two 1D numpy arrays
     """
 
     # initialize Naminatim API
@@ -112,6 +115,22 @@ def plot_fusion_map(names=None,
                     fname_map="map.html"
                     ):
     #{{{
+    """
+    Plot a map into html-file with fusion companies as markers.
+
+    Parameters
+    ----------
+    names: 1D numpy array
+    lats: 1D numpy array
+    lngs: 1D numpy array
+    concepts: 1D numpy array
+    fname_map: str
+
+    Returns
+    -------
+    lats, lngs: two 1D numpy arrays
+    """
+
     
     # create map, possible keywords:
     # location: center of map (latitude, longitude)
