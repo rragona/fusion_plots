@@ -31,6 +31,7 @@ Inspired and started from [Julien Hillairet's list of fusion startups](http://ju
 | Commonwealth Fusion Systems (CFS)           | 2018    | Cambridge, Massachusetts, USA | MCF, tokamak, HTS | 2025 [7] | https://cfs.energy/ |
 | Fuse Energy Technologies                    | 2018    | Palo Alto, California USA     | Magnetized-Liner inertial fusion (MagLIF), ICF |  |  https://www.f.energy/ |
 | Helicity Space                              | 2018    | Berkely, California, USA      | Spacecraft, helicity drive | | https://www.helicityspace.com/ |
+| ENN Fusion                                  | 2018    | Langfang, Hebei, China        | MCF, spherical tokamak, compact, proton-boron | 2035 [18]  | http://en.ennresearch.com/ |
 | Crossfield Fusion                           | 2019    | London, UK                    | Technology for providing fusion fuel | | http://crossfieldfusion.com/ |
 | HB11 Energy                                 | 2019    | Sydney, Australia             | Non-thermal fusion, hydrogen-boron11, laser fusion | 2030s [2] | https://hb11.energy/ |
 | Kyoto Fusioneering Ltd.                     | 2019    | Kyoto, Japan                  | Fusion technology, gyroton, breeding blanket | | https://kyotofusioneering.com/en/ |
@@ -64,7 +65,7 @@ Inspired and started from [Julien Hillairet's list of fusion startups](http://ju
 | Stellarex                                   | 2022    | Princeton, New Jersey, USA    | MCF, stellarator, HTS |   | https://stellarex.energy/ |
 | ExoFusion                                   | 2023    | Seattle, Washington, USA      | Provides fusion technologies |  |  https://exofusion.co/ |
 | LINEA Innovation Overview                   | 2023    | Roppongi Hills Mori Tower, Tokyo, Japan | FRC, magnetic mirror, hydrogen-boron (p-11B)   |  | https://linea-innovations.com/ |
-| Neo Fusion                                  | 2023 | No. 900, Wangjiang West Road, Hefei, Anhui, China | no information released |  |  |
+| Neo Fusion (BEST)                           | 2023    | No. 900, Wangjiang West Road, Hefei, Anhui, China | MCF, tokamak, at the helm of the BEST project [19]                       |  |  |
 | Pacific Fusion                              | 2023 | 2013 Farallon Dr, San Leandro, California, USA | ICF, MagLIF |  | https://www.pacificfusion.com/ |
 | Pulsed Light Technologies GmbH              | 2023    | Leipzig, Germany              | Develop laser technologies for ICF |  |  https://pulsed-light-technologies.org/ |
 | Proxima Fusion                              | 2023    | Flößergasse 2, Munich, Germany               | MCF, stellarator, HTS                      | 2030s [14]    | https://proximafusion.com/ | 
@@ -107,7 +108,8 @@ Inspired and started from [Julien Hillairet's list of fusion startups](http://ju
 15. https://www.linkedin.com/company/kronosfusionenergy
 16. https://generalfusion.com/fusion-demo-plant/
 17. https://www.geekwire.com/2023/energy-startup-ctfusion-folds-as-co-founders-land-at-rival-zap/
-
+18. http://en.ennresearch.com/researchfield/Compactfusion/
+19. https://www.chinadaily.com.cn/a/202407/23/WS669f5ca3a31095c51c50f7ad.html
 
 ## Further lists of private fusion projects
 1. http://julien.hillairet.free.fr/wiki/doku.php?id=list_of_fusion_startups
